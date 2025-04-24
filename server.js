@@ -16,7 +16,7 @@ app.post("/login",(req,res)=>{
 });
 
 app.get("/",(req,res)=>{
-    console.log("<h1>Server is running!</h1>")
+    res.send("<h1>Server is running!</h1>")
 })
 
 app.listen(PORT,()=>{
